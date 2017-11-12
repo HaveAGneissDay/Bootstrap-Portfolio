@@ -29,12 +29,10 @@ body {
 }
 
 aside {
- float: right;
+ float: left;
  background-color: #ffffff;
- padding: 10px;
- margin: 10px;
+ margin-left: 20px;
  width: 270px;
- position: relative;
  top : 70px;
  right: -470px;
 }
@@ -64,17 +62,21 @@ article {
 	width: 650px;
 	height: 500px;
 	float: left;
-	margin-top: 10px;
 	margin-left: 20px;
-	position: fixed;
 	top: 70px;
 	border-color: #dddddd;
 }
 .topbutton {
-	float:right;
+	float: right;
 	padding:20px;
 	font-size: 20px;
 	text-decoration-color: #cccccc;
+}
+
+.content {
+ padding-top: 75px;
+ clear:both;
+ margin-top:10px;
 }
 
 .icon {
@@ -89,21 +91,6 @@ p {
 form {
 	padding: 40px;
 }
-
-
-p.contents {
-	text-align: flow;
-	line-height: 1.5;
-}
-img {
-	float:left;
-	padding:10px;
-}
-.portfolio {
- float: right;
- padding: 20px;
-}
-
-.connect {
-	width: 640px;
+.col-md-4 {
+	float: left;
 }
