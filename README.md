@@ -1,3 +1,3 @@
 ## Bootstrap-Portfolio
 
-A Portfolio Page formatted using Bootstrap.
+A Portfolio Page made with HTML and formatted using Bootstrap.
